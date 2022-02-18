@@ -38,6 +38,9 @@ align-items: center;
 width: 100vw;
 height: 100vh;
 }
+.home-desc-hlyt{
+    font-weight: 700;
+}
 .home-div{
     padding: 200px 100px 0 100px;
     width: 100vw;
