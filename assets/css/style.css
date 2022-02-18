@@ -28,7 +28,46 @@ html{
 body{
     background:#f9f9f9;
 }
-
+.main-home{
+    background-image: url("../images/bg-parallax-2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center 0px;
+align-items: center;
+width: 100vw;
+height: 100vh;
+}
+.home-div{
+    padding: 150px 100px 0 100px;
+    width: 100vw;
+height: 100vh;
+    background-color: #efa720de;
+    align-items: center;
+    text-align: center;
+}
+.home-download{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 33%;
+   
+    
+}
+.home-download div{
+padding: 10px;
+margin-top: 20px;
+}
+.felimee-name{
+    color: var(--pink);
+}
+.main-home-heading{
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+.home-desc{
+    font-size: 2rem;
+}
 section{
     min-height: 100vh;
     padding:0 9%;
@@ -93,9 +132,13 @@ header{
 }
 .heading5{
     font-size: 3.1rem;
+    color: var(--pink);
 }
 .heading6{
     font-size: 2.9rem;
+}
+.content h1{
+    color: #333;
 }
 
 header .logo{
