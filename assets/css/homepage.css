@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 :root{
-    --yellow: #f3a515;
-    --pink:#fb268d;
-    
+    --yellow: #FDDE56;
+    --pink: rgba(255,173,196,1);
+    --text-color: #393E46;
+    --white-text: rgb(255, 255, 255);
 }
 
 html{
-    color: rgb(17, 17, 17);
     font-family: 'Poppins', sans-serif;
+     overflow-x: hidden;
 }
 
 *{
@@ -112,7 +113,7 @@ html{
 }
 .ai_section{
     padding: 100px;
-    background-color: #F7F7F7;
+     text-align: center;
     width: 100vw;
     height: auto;
 }
@@ -124,7 +125,7 @@ html{
      margin-top: 100px;
 }
 .felomee_name{
-    color: var(--pink);
+    color: var(--white-text);
 }
 .home_desc_highlight{
     font-weight: 800;
@@ -151,7 +152,11 @@ html{
 }
 .home_heading{
     font-size: 4rem;
+     
 }
+ 
+
+
 .home_desc{
     font-size: 20px;
 }
