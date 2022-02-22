@@ -12,7 +12,10 @@ button {
   background: none;
   text-decoration: none;
 }
-
+.menu-item a{
+  width: 100px;
+  text-align: center;
+}
 
 
 .nav-con {
@@ -168,7 +171,11 @@ button {
 }
 .header .menu-link:hover {
   color: #f7f5f5;
+  background-color: #16161a;
+  border-radius: 5px;
+    
 }
+ 
 @media only screen and (min-width: 768px) {
   .header .menu-link {
     padding: 0.5rem 0;
@@ -211,9 +218,7 @@ button {
   .menu-link{
     color:var(--purple);
   }
-  .header .menu-link:hover {
-    color: #16161a;
-  }
+ 
 }
  /* branding */
  

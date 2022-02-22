@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 :root{
     --yellow: #FDDE56;
-    --pink: rgba(255,173,196,1);
+    --pink: #ffadc4;
     --text-color: #393E46;
-    --white-text: rgb(255, 255, 255);
+    --white-text: #ffffff;
 }
 
 html{
@@ -110,6 +110,9 @@ html{
 }
 .text_div_h1{
      font-size: 2.5rem;
+}
+.ai_section h1{
+    font-size: 2.5rem;
 }
 .ai_section{
     padding: 100px;
@@ -234,6 +237,12 @@ html{
 }
 
 
+/* mobile responsive css */
+
+@media only screen and (max-width: 768px){
+ 
+
+}
 
 
 
