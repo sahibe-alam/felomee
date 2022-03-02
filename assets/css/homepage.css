@@ -41,7 +41,7 @@ html{
  
 .main_home{
     width: 100vw;
-    height: 100vh;
+    height: auto;
   background: var(--yellow);
    display: grid;
    place-items: center;
@@ -135,7 +135,7 @@ html{
    height: auto;
     text-align: center;
      position: relative;
-     margin-top: 100px;
+     margin-top: 150px;
 }
 .felomee_name{
     color: var(--white-text);
