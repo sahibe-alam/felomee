@@ -30,19 +30,19 @@ html{
     overflow-x: hidden;
 }
 .section2{
+    position: relative;
     width: 100vw;
     height: 100vh;
-   
-    flex-direction: row;
+   padding: 0% 150px 0% 150px;
+  align-items: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+   flex-direction: row;
 }
  
 .main_home{
     width: 100vw;
     height: 100vh;
-    background-color: var(--yellow);
+  background: var(--yellow);
    display: grid;
    place-items: center;
 }
@@ -67,56 +67,64 @@ html{
    justify-content: center;
    text-align: center;
 }
+ 
 .mobile_scrn_img{
-    width: 50%;
-     
+    width: 200px;
+     float: right;
      
 }
 .mobile_scrn_img1{
-    width: 90%;
-     position: relative;
-   
-     margin-left: 50px;
+    width: 400px;
+    float: right;
    
      
 }
 .mobile_scrn{
     width: 30vw;
+     position: relative;
+ 
+  
+   
 }
 .mobile_scrn1{
+    /* background-color: #FDDE56; */
     width: 30vw;
     position: relative;
 }
 .section1{
-   
+   position: relative;
     width: 100vw;
     height: 100vh;
-   
-    flex-direction: row;
+   padding: 0% 150px 0% 150px;
+  align-items: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+   flex-direction: row;
 }
 .ai_img{
-    width: 100%;
+     width: 100%;
 }
 .text_div{
-    padding: 70px;
+     position: relative;
     width: 70vw;
+    
+ 
+   
 }
 .text_div1{
-    padding: 70px;
+   position: relative;
     width: 70vw;
+    /* background-color: #393E46; */
 }
 .text_div_h1{
      font-size: 2.5rem;
+     text-align: left;
 }
 .ai_tagline{
     font-size: 2.5rem;
 }
  
 .ai_section{
-    font-size: 1rem;
+    
     padding: 50px;
      text-align: center;
     width: 100vw;
