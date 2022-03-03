@@ -71,8 +71,9 @@ html{
 .mobile_scrn_img{
     width: 200px;
      float: right;
-     
+ 
 }
+ 
 .mobile_scrn_img1{
     width: 400px;
     float: right;
@@ -83,8 +84,13 @@ html{
     width: 30vw;
      position: relative;
  
-  
+  opacity: 0;
    
+}
+.mobile_scrn.animated{
+    opacity: 1;
+    animation-duration: 0.9s;
+  animation-delay: 0s;
 }
 .mobile_scrn1{
     /* background-color: #FDDE56; */
@@ -106,9 +112,12 @@ html{
 .text_div{
      position: relative;
     width: 70vw;
-    
+    opacity: 0;
  
    
+}
+.text_div.animated{
+    opacity: 1;
 }
 .text_div1{
    position: relative;
@@ -165,7 +174,10 @@ html{
 }
 .home_heading{
     font-size: 4rem;
-     
+     opacity: 0;
+}
+.home_heading.animated{
+    opacity: 1;
 }
  
 
