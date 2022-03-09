@@ -105,6 +105,7 @@ html{
   align-items: center;
     display: flex;
    flex-direction: row;
+   background-color: #FDDE56;
 }
 .ai_img{
      width: 100%;
